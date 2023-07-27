@@ -2,7 +2,7 @@
   "name": "microsoft",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://PRINCEDIGRA786.github.io/microsoft_clone",
+  "homepage": "http://princedigra786.github.io/microsoft_clone",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
