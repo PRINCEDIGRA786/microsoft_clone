@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/microsoft_clone/static/css/main.c7bce0b2.css",
+    "main.js": "/microsoft_clone/static/js/main.e6e894d4.js",
+    "static/js/787.90d26c01.chunk.js": "/microsoft_clone/static/js/787.90d26c01.chunk.js",
+    "static/media/logo.svg": "/microsoft_clone/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/microsoft_clone/index.html",
+    "main.c7bce0b2.css.map": "/microsoft_clone/static/css/main.c7bce0b2.css.map",
+    "main.e6e894d4.js.map": "/microsoft_clone/static/js/main.e6e894d4.js.map",
+    "787.90d26c01.chunk.js.map": "/microsoft_clone/static/js/787.90d26c01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7bce0b2.css",
+    "static/js/main.e6e894d4.js"
+  ]
+}
