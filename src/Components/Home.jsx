@@ -56,11 +56,13 @@ export default function Home() {
     
    <div className="slider1 flex flex-col md:flex-row md:m-1" style={fl}>
       <div className="right1" >
-        <img  src='https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-M1-Family-02-1:VP2-859x540' className='md:h-[33rem] md:w-[80rem]'></img>
+        {/* <img  src='https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-M1-Family-02-1:VP2-859x540' className='md:h-[33rem] md:w-[80rem]'></img> */}
+        <img  src='https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682:VP4-1399x600' className='w-[100vw] h-[100vh]'></img>
       </div>
-      <div className="left1 pl-4 flex flex-col md:justify-center md:bg-[#f2f2f2] md:p-3 md:pr-44 md:pt-12 shadow-sm shadow-gray-200 md:shadow-none">
-        <h1 className='text-2xl md:text-3xl md:my-3 font-semibold my-1 mt-2'>Surface Pro 9</h1>
-        <p className='my-2 font-sans'>Tablet versatality and laptop power-all in one ultra portable devices</p>
+      <div className="left1  flex flex-col h-[300px] w-[430px] absolute top-32  left-12 md:justify-center md:bg-[#f2f2f2] p-6 shadow-sm shadow-gray-200 md:shadow-none">
+        <button className='bg-yellow-400 p-1 text-md font-bold text-black w-16'>New</button>
+        <h1 className='text-2xl md:text-3xl md:my-3 font-semibold my-1 mt-2'>Meet Surface Pro</h1>
+        <p className='my-2 font-sans'>This laptop's unrivalled flexibility and AI features like Live Captions and Cocreator, enable you to do more than you ever imagined.</p>
         <button className="btn mt-4 mb-8 bg-[#0067b8] md:mt-3 w-28 text-white font-semibold p-2">Learn more</button>
       </div></div>
       <div className="slider2 flex flex-col md:flex-row-reverse md:m-1" style={hd}>
@@ -104,7 +106,7 @@ export default function Home() {
       <h1 className='my-2 text-2xl font-semibold'>Surface Laptop 5</h1>
       <p className='mt-1 text-md font-sans mb-7'>Sophisticated style and multitasking speed powered by 12th Gen Intel® Core, with Windows 11.</p>
       <div>
-      <a href='#' className=' text-blue-700 font-semibold flex'>Learn more<MdOutlineKeyboardArrowRight className='h-11 w-7 pb-4'/></a>
+      <a href='#' className='  text-white p-2 w-40 bg-blue-500 font-semibold flex'>Learn more</a>
       </div> 
     </div>
     <div className="item2 sm:w-64 m-2">
@@ -112,7 +114,7 @@ export default function Home() {
       <h1 className='my-2 text-2xl font-semibold'>Xbox Series X</h1>
       <p className='mt-1 text-md font-sans mb-7'>Next-gen performance in the smallest Xbox ever. </p>
      <div>
-      <a href='#' className=' text-blue-700 font-semibold flex '>Shop  Xbox Series S<MdOutlineKeyboardArrowRight className='h-11 w-7 pb-4'/></a>
+      <a href='#' className='  text-white p-2 w-40 bg-blue-500 font-semibold flex '>Shop  Xbox Series S</a>
       </div> 
     </div>
     <div className="item3 sm:w-64 m-2">
@@ -120,7 +122,7 @@ export default function Home() {
       <h1 className='my-2 text-2xl font-semibold'>Announcing the next wave of AI innovation</h1>
       <p className='mt-1 text-md font-sans mb-7'>The new Microsoft Bing and Edge will soon feature more visual search responses, chat history, and persistent chat within Edge. We’re also adding actions to help people complete tasks.</p>
       <div>
-      <a href='#' className=' text-blue-700 font-semibold flex'>Learn more about it<MdOutlineKeyboardArrowRight className='h-11 w-7 pb-4'/></a>
+      <a href='#' className='  text-white p-2 w-40 bg-blue-500 font-semibold flex'>Learn more about it</a>
       </div> 
     </div>
     <div className="item4 sm:w-64 m-2">
@@ -128,7 +130,7 @@ export default function Home() {
       <h1 className='my-2 text-2xl font-semibold'>Xbox Game Pass Ultimate</h1>
       <p className='mt-1 text-md font-sans mb-7'>Xbox Live Gold and hundreds of high-quality console and PC games. Play together with friends and discover your next favourite game.</p>
       <div>
-      <a href='#' className=' text-blue-700 font-semibold flex'>Join now<MdOutlineKeyboardArrowRight className='h-11 w-7 pb-4'/></a>
+      <a href='#' className='  text-white p-2 w-40 bg-blue-500 font-semibold flex'>Join now</a>
       </div> 
     </div>
    </div>
@@ -151,7 +153,7 @@ export default function Home() {
       <h1 className='my-2 text-2xl font-semibold'>Surface for Business</h1>
       <p className='mt-1 text-md font-sans mb-7'>No matter what you do, there's a Surface to help you do it.</p>
       <div>
-      <a href='#' className=' text-blue-700 font-semibold flex'>Shop now<MdOutlineKeyboardArrowRight className='h-11 w-7 pb-4'/></a>
+      <a href='#' className='  text-white p-2 w-40 bg-blue-500 font-semibold flex'>Shop now</a>
       </div> 
     </div>
     <div className="item2 sm:w-64 m-2">
@@ -159,7 +161,7 @@ export default function Home() {
       <h1 className='my-2 text-2xl font-semibold'>Try Microsoft 365  for free</h1>
       <p className='mt-1 text-md font-sans mb-7'>Get Microsoft Teams,secure cloud storage and premium apps across devices with a free one-month Microsoft 365 Business Standard trail. </p>
      <div>
-      <a href='#' className=' text-blue-700 font-semibold flex '>Start your free trail<MdOutlineKeyboardArrowRight className='h-11 w-7 pb-4'/></a>
+      <a href='#' className='  text-white p-2 w-40 bg-blue-500 font-semibold flex '>Start your free trail</a>
       </div> 
     </div>
     <div className="item3 sm:w-64 m-2">
@@ -167,7 +169,7 @@ export default function Home() {
       <h1 className='my-2 text-2xl font-semibold'>Welcome to your Windows 365 Cloud PC</h1>
       <p className='mt-1 text-md font-sans mb-7'>Securely stream your Windows experience from the Microsoft cloud to  any device.</p>
       <div>
-      <a href='#' className=' text-blue-700 font-semibold flex'>Get it today<MdOutlineKeyboardArrowRight className='h-11 w-7 pb-4'/></a>
+      <a href='#' className='  text-white p-2 w-40 bg-blue-500 font-semibold flex'>Get it today</a>
       </div> 
     </div>
     <div className="item4 sm:w-64 m-2">
@@ -175,7 +177,7 @@ export default function Home() {
       <h1 className='my-2 text-2xl font-semibold'>Windows 11 for business</h1>
       <p className='mt-1 text-md font-sans mb-7'>Designed for hybrid work. Powerful for employees.Consistent for IT.Secure for all.</p>
       <div>
-      <a href='#' className=' text-blue-700 font-semibold flex'>Learn more<MdOutlineKeyboardArrowRight className='h-11 w-7 pb-4'/></a>
+      <a href='#' className='  text-white p-2 w-40 bg-blue-500 font-semibold flex'>Learn more</a>
       </div> 
     </div>
    </div>
